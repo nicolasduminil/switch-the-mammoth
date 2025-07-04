@@ -257,4 +257,4 @@ look at the unit test `TestCalculationRegistry` to make sure you understand how 
 
 Conclusion: while over-engineering might be an issue, leading to hardly maintainable code, the most important
 issue of the software industry is the over-simplification and the poor design. 
-So, keep it simple but not simplistic !
+So, keep it simple but not simplistic and, above all, not stupid !
