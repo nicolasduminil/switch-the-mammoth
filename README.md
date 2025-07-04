@@ -26,7 +26,7 @@ interest rates or commodities like oil. They "derive" their values from the ones
 several types of derivatives: options, forwards, futures, swaps, warrants, etc. and, without going into details, they all
 have prices, which are calculated in a specific way, depending on the derivative type.
 
-In order to clarify expectations, I have prepared a simple Java project (https://github.com/nicolasduminil/switch-tower.git).
+In order to clarify expectations, I have prepared a simple Java project (https://github.com/nicolasduminil/switch-the-mammoth.git).
 If you look at, you can see the class `Title` which implements several methods for the price calculation, specific to each
 type of derivative. Let's look at it:
 
