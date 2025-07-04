@@ -1,4 +1,4 @@
-package fr.simplex_software.switch_tower.registry;
+package fr.simplex_software.mammoth.registry;
 
 import java.math.*;
 import java.util.*;

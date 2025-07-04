@@ -1,6 +1,6 @@
-package fr.simplex_software.switch_tower.model;
+package fr.simplex_software.mammoth.model;
 
-import fr.simplex_software.switch_tower.exceptions.*;
+import fr.simplex_software.mammoth.exceptions.*;
 
 import java.math.*;
 import java.util.*;

@@ -1,4 +1,4 @@
-package fr.simplex_software.switch_tower.exceptions;
+package fr.simplex_software.mammoth.exceptions;
 
 public class IllegalTitleTypeException extends Exception
 {

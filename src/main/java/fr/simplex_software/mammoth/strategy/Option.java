@@ -1,6 +1,6 @@
-package fr.simplex_software.switch_tower.strategy;
+package fr.simplex_software.mammoth.strategy;
 
-import fr.simplex_software.switch_tower.model.*;
+import fr.simplex_software.mammoth.model.*;
 
 import java.math.*;
 
@@ -13,7 +13,7 @@ public class Option extends AbstractTitle
 
   // Option value: max(0, spotPrice - strikePrice) + timeValue
   @Override
-  public BigDecimal recalculate(CalculationData calculationData)
+  public BigDecimal performCalculations(CalculationData calculationData)
   {
     BigDecimal intrinsicValue = calculationData.spotPrice()
       .subtract(calculationData.strikePrice()).max(BigDecimal.ZERO);

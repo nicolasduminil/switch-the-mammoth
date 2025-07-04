@@ -1,0 +1,7 @@
+@startuml
+start
+:recalculate(...);
+:performCalculations(...);
+:notifyObservers();
+stop
+@enduml

@@ -1,7 +1,7 @@
 package fr.simplex_software.switch_tower.tests;
 
-import fr.simplex_software.switch_tower.model.*;
-import fr.simplex_software.switch_tower.registry.*;
+import fr.simplex_software.mammoth.model.*;
+import fr.simplex_software.mammoth.registry.*;
 import org.junit.jupiter.api.*;
 
 import java.math.*;

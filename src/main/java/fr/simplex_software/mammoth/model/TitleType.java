@@ -1,4 +1,4 @@
-package fr.simplex_software.switch_tower.model;
+package fr.simplex_software.mammoth.model;
 
 public enum TitleType
 {

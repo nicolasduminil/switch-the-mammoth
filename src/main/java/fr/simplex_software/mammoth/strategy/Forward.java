@@ -1,7 +1,7 @@
-package fr.simplex_software.switch_tower.strategy;
+package fr.simplex_software.mammoth.strategy;
 
-import fr.simplex_software.switch_tower.exceptions.*;
-import fr.simplex_software.switch_tower.model.*;
+import fr.simplex_software.mammoth.exceptions.*;
+import fr.simplex_software.mammoth.model.*;
 
 import java.math.*;
 
@@ -14,7 +14,7 @@ public class Forward extends AbstractTitle
 
   // Forward value = spotPrice * (1 + riskFreeRate * timeToExpiry)
   @Override
-  public BigDecimal recalculate(CalculationData calculationData) throws IllegalTitleTypeException
+  public BigDecimal performCalculations(CalculationData calculationData) throws IllegalTitleTypeException
   {
     BigDecimal rateComponent = BigDecimal.ONE
       .add(calculationData.riskFreeRate()

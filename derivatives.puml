@@ -1,0 +1,19 @@
+@startuml
+abstract class AbstractInstrument{
++ recalculate(...) : BigDecimal
+{abstract} # performCalculations(...) : BigDecimal
++ notifyObservers(...) : void
+}
+java.util.Observable <|-- AbstractInstrument
+Derivative <|.. AbstractInstrument
+AbstractInstrument <|-- Option
+AbstractInstrument <|-- Future
+AbstractInstrument <|-- Forward
+AbstractInstrument <|-- Swap
+AbstractInstrument <|-- Warrant
+Option : # BigDecimal performCalculations(...)
+Future : # BigDecimal performCalculations(...)
+Forward : # BigDecimal performCalculations(...)
+Swap : # BigDecimal performCalculations(...)
+Warrant : # BigDecimal performCalculations(...)
+@enduml
